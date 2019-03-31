@@ -1,0 +1,75 @@
+body {
+  background-color: #ce2525;
+  font-family: monospace;
+  color: white;
+  padding: 32px;
+}
+
+h1 {
+  position: absolute;
+  left: -1000000px;
+}
+
+.logo {
+  max-width: 600px;
+  margin-bottom: 32px;
+}
+
+h2 {
+  margin: 32px 0 0;
+  max-width: 600px;
+}
+
+a {
+  display: inline-block;
+  transition: 200ms;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-right: 16px;
+}
+
+.so-me a img {
+  transition: 200ms;
+  max-width: 50px;
+  border-radius: 8px;
+}
+
+.so-me a:hover img {
+  transform: scale(1.2);
+}
+
+a.book {
+  background-color: white;
+  border-radius: 8px;
+  color: #ce2525;
+  font-size: 2em;
+  padding: 8px;
+  margin: 16px 0 32px;
+}
+
+a.book:hover {
+  transform: scale(1.1);
+}
+
+ul {
+  list-style: none;
+}
+
+.events {
+  margin-top: 64px;
+  font-size: 1.2em;
+}
+
+.events a {
+  transition: 200ms;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.events a:hover {
+  transform: scale(1.02);
+}
