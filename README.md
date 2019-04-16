@@ -1,7 +1,7 @@
 ekkokammer
 
 hosted on ZEIT NOW
-run 'now' to deploy
+run 'now --target production' to deploy
 Remember to check alias settings after deploy. I'm not sure how it works
 
 Using improvmx.com for email forward. All going to ianabildskou@gmail.com atm

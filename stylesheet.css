@@ -57,9 +57,10 @@ a.book {
   background-color: white;
   border-radius: 8px;
   color: #1e1e1e;
-  font-size: 2em;
+  font-size: 40px;
   padding: 8px;
   margin: 16px 0 32px;
+  text-align: center;
 }
 
 a.book:hover {
@@ -85,4 +86,9 @@ ul {
 
 .events a:hover {
   transform: scale(1.02);
+}
+
+.email {
+  color: grey;
+  font-size: 14px;
 }
