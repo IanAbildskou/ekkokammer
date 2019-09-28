@@ -71,6 +71,10 @@ ul {
   list-style: none;
 }
 
+li {
+  margin-bottom: 8px;
+}
+
 .events {
   margin-top: 64px;
   font-size: 1.2em;
